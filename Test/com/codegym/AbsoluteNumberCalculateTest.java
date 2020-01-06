@@ -15,14 +15,14 @@ class AbsoluteNumberCalculateTest {
     }
 
     @Test
-    void testFindAbsolute1() {
+    void testFindAbsoluteNegative1() {
         int number=-1;//gtri đầu vào
         int expected=1;//giá trị mong muốn
         int result=AbsoluteNumberCalculate.findAbsolute(number);//giá trị thực tế
         assertEquals(expected,result);//so sánh bằng nhau);
     }
     @Test
-    void testFindAbsolute2() {
+    void testFindAbsolute1() {
         int number=1;//gtri đầu vào
         int expected=1;//giá trị mong muốn
         int result=AbsoluteNumberCalculate.findAbsolute(number);//giá trị thực tế
